@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/Leo/Desktop/Ubicator android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/fondo.png",
+        "source": "/Users/Leo/Desktop/Ubicator android/app/src/main/res/drawable-ldpi/fondo.png"
+    },
+    {
+        "merged": "/Users/Leo/Desktop/Ubicator android/app/build/intermediates/res/merged/debug/drawable-ldpi-v4/maps.png",
+        "source": "/Users/Leo/Desktop/Ubicator android/app/src/main/res/drawable-ldpi/maps.png"
+    }
+]

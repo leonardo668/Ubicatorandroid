@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/fondo">
+    <TextView
+        android:id="@+id/textView1"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ubicación"/>
+
+    <Button
+        android:id="@+id/btnLanzarServicio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="35dp"
+        android:onClick="onClickLanzarServicio"
+        android:text="Arrancar Servicio" />
+
+    <Button
+        android:id="@+id/detener_servico"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnLanzarServicio"
+        android:layout_alignBottom="@+id/btnLanzarServicio"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="24dp"
+        android:onClick="onClickDetenerServicio"
+        android:text="Detener Servicio" />
+
+</RelativeLayout>
+
